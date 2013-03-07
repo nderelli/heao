@@ -8,3 +8,7 @@ Author: Peter Anderelli & Ramon Barcenas
 
 @import url('css/style.css');
 
+body {
+	background: red;
+}
+
