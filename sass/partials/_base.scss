@@ -16,10 +16,6 @@ $active-color: $base-color;
 $visited-color: $link-color;
 $focus-color: $base-color;
 
-$border-color: darken($background, 30%);
-$ul-border: 1px dotted $border-color;
-
-
 // Selection
 $selected-background: rgb(240, 87, 83);
 $selected-color: rgb(240, 240, 240);
