@@ -1,0 +1,35 @@
+@function textColor($opacity:1){
+    @return rgba($base-color,$opacity)	}
+@function white($opacity:1){
+    @return rgba(255,255,255,$opacity)
+}
+
+
+@mixin link-colors() {
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover { color: $hover-color; }
+    &:active { color: $active-color; }
+    &:visited { color: $visited-color; }
+    &:focus { color: $link-color; }
+  }
+}
+
+@mixin selection($c, $bg) {
+  ::-moz-selection {background: $bg; color:$c; text-shadow:none;}
+  ::selection {background: $bg; color:$c; text-shadow:none;}
+}
+
+@mixin typeRules() {
+    color: $base-color;
+    font: {
+      family: $base-font;
+      size: $base-font-size;
+      weight: normal;
+    }
+    line-height: $base-line-height;
+    word-spacing: $word-spacing;
+    letter-spacing: $letter-spacing;
+    @include selection($selected-color, $selected-background);
+}
