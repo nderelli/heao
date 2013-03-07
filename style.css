@@ -3,12 +3,7 @@ Theme Name: HEAO
 Theme URI: http://www.anderelli.com
 Description: Simple portfolio theme for Graphic Design Students
 Version: 0.1
-Author: Peter Anderelli & Ramon Barcenas
+Author: Peter Anderelli & Ramon Barcenas & Benjamin Conrad
 */
 
 @import url('css/style.css');
-
-body {
-	background: red;
-}
-
