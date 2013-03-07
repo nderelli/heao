@@ -6,6 +6,7 @@
 <head>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
 	
@@ -23,7 +24,7 @@
 
 <body <?php body_class(); ?>>
 
-	<div class="wrapper">
+	<div class="container">
 	
 		<header role="header">
 		
