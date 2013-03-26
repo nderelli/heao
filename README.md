@@ -8,3 +8,4 @@ A starting Wordpress theme for a portfolio.
 - Categories
 -   Print
 -   Screen
+- 	Etc.
